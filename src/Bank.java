@@ -30,9 +30,9 @@ class Test2{
         BOC b = new BOC();
         PeoplesBank p = new PeoplesBank();
         CommercialBank c = new CommercialBank();
-        System.out.println("BOC Interest Rate :- " + b.getInterestRate() + "%");
-        System.out.println("Peoples Interest Rate :- " + p.getInterestRate() + "%");
-        System.out.println("Commercial Interest Rate :- " + c.getInterestRate() + "%");
+        System.out.println("BOC Bank Interest Rate :- " + b.getInterestRate() + "%");
+        System.out.println("Peoples Bank Interest Rate :- " + p.getInterestRate() + "%");
+        System.out.println("Commercial Bank Interest Rate :- " + c.getInterestRate() + "%");
     }
 }
 
