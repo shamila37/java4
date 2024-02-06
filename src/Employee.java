@@ -19,8 +19,8 @@ class Executive extends Employee {
 class Test3 {
     public static void main(String[] args) {
         Manager manager = new Manager();
-        System.out.println("Manager's salary " + manager.salary());
+        System.out.println("Manager's salary :-" + manager.salary());
         Executive executive = new Executive();
-        System.out.println("Executive's salary " + executive.salary());
+        System.out.println("Executive's salary :-" + executive.salary());
     }
 }
